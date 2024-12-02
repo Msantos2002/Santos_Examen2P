@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\ArchivoBlack-Regular.ttf" />
 	  <None Remove="Resources\Images\billete.png" />
 	  <None Remove="Resources\Images\moneda.jpg" />
 	</ItemGroup>

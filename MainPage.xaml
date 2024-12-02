@@ -15,6 +15,7 @@
 
             <Label
                 Text="CONVERTIDOR DE MONEDAS"
+                TextColor="Red"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
             <Label Text="Euros (€)" FontSize="17" FontAttributes="Bold" />
