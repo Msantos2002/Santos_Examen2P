@@ -24,12 +24,13 @@
                 Placeholder="Ingrese la cantidad de Euros"
                 Keyboard="Numeric"
                 SemanticProperties.Description="ingresar Euros"/>
-
+            <Label Text="Dolares ($)" FontSize="17" FontAttributes="Bold" />
             <Entry
                 x:Name="MS_Dolares"
                 Placeholder="Ingrese la cantidad de Dolares"
                 Keyboard="Numeric"
                 SemanticProperties.Description="ingresar Dolares"/>
+            <Label Text="Pesos Colombainos (COP)" FontSize="17" FontAttributes="Bold" />
             <Entry
                 x:Name="MS_Pesos"
                 Placeholder="Ingrese la cantidad de Pesos Colombianos "
