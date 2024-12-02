@@ -17,6 +17,8 @@
                 Text="CONVERTIDOR DE MONEDAS"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
+            <Label Text="Euros (€)" FontSize="17" FontAttributes="Bold" />
+
             <Entry
                 x:Name="MS_Euros"
                 Placeholder="Ingrese la cantidad de Euros"
