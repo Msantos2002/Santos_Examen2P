@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Santos_Examen2P.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="billete.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="monedas y billetes" />
+
+            <Label
+                Text="CONVERTIDOR DE MONEDAS"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Entry
+                x:Name="MS_Euros"
+                Placeholder="Ingrese la cantidad de Euros"
+                Keyboard="Numeric"
+                SemanticProperties.Description="ingresar Euros"/>
+
+            <Entry
+                x:Name="MS_Dolares"
+                Placeholder="Ingrese la cantidad de Dolares"
+                Keyboard="Numeric"
+                SemanticProperties.Description="ingresar Dolares"/>
+            <Entry
+                x:Name="MS_Pesos"
+                Placeholder="Ingrese la cantidad de Pesos Colombianos "
+                Keyboard="Numeric"
+                SemanticProperties.Description="ingresar Pesos Colombianos"/>
+
+            <Button
+                x:Name="MS_Convertir"
+                Text="Transformar" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+            <Button
+                x:Name="MS_Borrar"
+                Text="Borrar campos" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnBorrarClicked"
+                HorizontalOptions="Fill" /> 
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
